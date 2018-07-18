@@ -19,4 +19,6 @@ function destructivelyRemoveFirstDriver() {
 
 function appendDriver(name) {
   const newdrivers = [...drivers, name]
+  console.log(newdrivers)
+
 }
