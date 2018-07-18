@@ -26,3 +26,8 @@ function prependDriver(name) {
   const newdrivers = [name, ...drivers]
   return newdrivers
 }
+
+function appendDriver(name) {
+  const newdrivers = [...drivers, name]
+  return newdrivers
+}
